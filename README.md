@@ -21,11 +21,8 @@ source venv/bin/activate
 ### 3. Install dependencies
 pip install -r requirements.txt
 
-### 4. Add credentials.json
-Place Google service account credentials file in root.
-
-### 5. Run backend
-uvicorn app.app:app --reload
+### 4. Run backend
+pthon main.py
 
 ### 6. Run Streamlit
-streamlit run streamlit_ui/ui.py
+streamlit run ui.py
